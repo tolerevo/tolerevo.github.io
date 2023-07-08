@@ -1,6 +1,6 @@
 body {
   font-family: Roboto, sans-serif;
-  background-image: url('glass-rainbow.png');
+  background-image: url('./glass-rainbow.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -36,7 +36,7 @@ a {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('ray-of-lights.png');
+  background-image: url('./ray-of-lights.png');
   background-size: cover;
   background-color: #ffffff;
   opacity: 0.8;
