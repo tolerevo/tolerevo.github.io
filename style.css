@@ -1,16 +1,20 @@
 body {
   font-family: Roboto, sans-serif;
-  background-image: url('./glass-rainbow.png');
+  background-image: url('images/glass-rainbow.png');
   background-size: cover;
-  background-repeat: no-repeat;
-}
+  background-blend-mode: multiply;
+  background-position: center;
+  display: grid;
+
+  }
+
 
 header {
   padding: 20px 0;
 }
 
 p{
-  color: hsla(0, 0%, 96%, 0.8);
+  color: hsla(98, 39%, 25%, 0.8);
 }
 
 header .row{
@@ -21,6 +25,7 @@ header .row{
 h1 {
   font-weight: 700;
   margin: 0;
+  color:rgba(58, 120, 101, 0.9);
 }
 
 nav {
@@ -31,13 +36,27 @@ nav {
 a {
   padding: 0 20px;
   margin: 0;
+  color:#f3dc47;
+}
+
+.row {
+   align-items: center;
+   display: -ms-flexbox;
+   display: flex;
+   justify-items: center;
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+   margin-right: -15px;
+   margin-left: -15px;
+    
 }
 
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('./ray-of-lights.png');
+  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url('images/ray-of-lights.png');
   background-size: cover;
+  background-blend-mode: hue();
   background-color: #ffffff;
   opacity: 0.8;
   height: 400px;
@@ -49,7 +68,7 @@ a {
   font-size: 60px;
   font-weight: 700;
   margin: 0;
-  color: hsla(178, 50%, 57%, 1);
+  color: rgba(62, 238, 253, 0.8);
 }
 
 .jumbotron h3 {
@@ -79,7 +98,7 @@ section .row img {
 }
 
 .btn-secondary {
-  background-color: #2a70e0;
+  background-color: #d59aff;
   color: #ffffff;
   margin: 0 0 30px;
 }
