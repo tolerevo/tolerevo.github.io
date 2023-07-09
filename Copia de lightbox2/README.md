@@ -29,4 +29,3 @@ Some old tech, but it works, so no upgrading till something breaks.
 - Start local server: `grunt`
 - Navigate to `localhost:8000/examples`
 - Update `examples/index.html` to load jQuery and `src/js/lightbox.js`.
-
