@@ -1,0 +1,80 @@
+* {
+    font-family: sans-serif, monospace;
+    overflow: scroll;
+}
+
+main {
+    background-color: hsla(32, 74%, 83%, 0.8);
+    margin: 0;
+    padding: 20px;
+}
+
+#image {
+    position: relative;
+    display: block;
+    width: 450px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 1989px;
+    max-width: 100%;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif, monospace;
+    text-align: center;
+    padding: 10px;
+    min-width: 200px;
+    letter-spacing: 2;
+    color: hsla(295, 45%, 45%, 0.9)
+}
+
+#img-caption {
+    font-family: sans-serif, monospace;
+    letter-spacing: 1.5;
+    font-size: 1.3rem;
+    color: hsla(295, 45%, 45%, 0.9);
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    font-family: "Roboto", sans-serif, monospace;
+    text-align: justify;
+    margin: 0 auto;
+    min-width: 150px;
+    max-width: 800px;
+    font-size: 1.2em;
+    color: hsla(0, 2%, 35%, 1);
+    line-height: 1.7;
+    overflow: scroll;
+    font-weight: 500;
+    letter-spacing: 1.5;
+}
+
+a {
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    width: 100px;
+    min-width: 500px;
+    padding: 15px 25%;
+    letter-spacing: 1.2;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    color:hsla(295, 45%, 45%, 0.9);
+}
+
+a:hover {
+    text-transform: uppercase;
+    color:blueviolet;
+    transition: all 0.5 step-end;
+}
+
+a:active {
+    text-decoration: underline;
+}
+a:after {
+    font-style: italic;
+}
