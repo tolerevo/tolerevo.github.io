@@ -134,7 +134,7 @@ table {
   --background-welcome: gray;
   --main-white: #f0f0f0;
   --main-blue: #45567d;
-  --main-gray: #303841;
+  --main-gray: #238853;
   --main-red: #be3144;
 }
 
@@ -170,7 +170,7 @@ h1 {
   width: 100%;
   z-index: 1;
   min-height: 20px;
-  background: hsla(89, 57%, 32%, 1);
+  background: var(--main-gray);
   border:
     2px solid black;
 }
@@ -179,6 +179,7 @@ h1 {
   font-family: Montserrat, monospace;
   position: relative;
   font-size: 3rem;
+  font-weight: 450;
   width: 50%;
   flex-grow: 2;
   flex-shrink: 1;
@@ -250,7 +251,7 @@ li a:active {
   margin: 0 auto;
   width: 100%;
   z-index: 0;
-  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  background-image: radial-gradient(at top left, #2029d7, #238853)
 }
 
 #welcome-section h1 {
@@ -346,6 +347,7 @@ div.projects-grid {
 
 .project-title {
   font-size: 2rem;
+  font-weight: bold;
   padding: 2rem 0.5rem;
 }
 
@@ -357,6 +359,7 @@ div.projects-grid {
 
 .btn-show-all {
   font-size: 2rem;
+  font-weight: bold;
   background: var(--main-gray);
   color: var(--main-white);
   text-decoration: none;
@@ -396,7 +399,7 @@ section#Contact.contact-section {
   margin: 0 auto;
   width: 100%;
   z-index: 0;
-  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  background-image:radial-gradient(at top left,  #2029d7, #238853)
 }
 
 .contact-subtitle {
