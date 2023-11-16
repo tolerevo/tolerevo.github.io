@@ -175,7 +175,7 @@ h1 {
     2px solid black;
 }
 
-#navbar h2{
+#navbar h2 {
   font-family: Montserrat, monospace;
   position: relative;
   font-size: 3rem;
@@ -194,15 +194,15 @@ h1 {
 
 ul.navbar {
   list-style: none;
-width: 30%;
-display: flex;
-flex-flow: row wrap;
-align-items: center;
-justify-content: space-evenly;
-margin-right: 30px;
+  width: 30%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 30px;
 }
 
-li a  {
+li a {
   text-decoration: none;
   font-family: 'Montserrat', sans-serif, monospace;
   font-weight: 350;
@@ -217,7 +217,7 @@ li a  {
 
 li a:link {
   transition-property: color;
-  color:#ff7f50;
+  color: #ff7f50;
 }
 
 li a:visited {
@@ -237,6 +237,7 @@ li a:active {
   color: var(--main-blue);
   transition: all 300ms ease-in-out;
 }
+
 /** Welcome-section **/
 
 #welcome-section {
@@ -399,7 +400,7 @@ section#Contact.contact-section {
   margin: 0 auto;
   width: 100%;
   z-index: 0;
-  background-image:radial-gradient(at top left,  #2029d7, #238853)
+  background-image: radial-gradient(at top left, #2029d7, #238853)
 }
 
 .contact-subtitle {
