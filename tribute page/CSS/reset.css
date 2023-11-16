@@ -231,7 +231,9 @@ height: O;
 */
 
 img {
-border-style: none;
+  border-style: double;
+  border-color: darkturquoise;
+  border-width: thick;
 }
 
 /**
