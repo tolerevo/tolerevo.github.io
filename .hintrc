@@ -11,6 +11,12 @@
           "-webkit-text-decoration-skip"
         ]
       }
+    ],
+    "axe/text-alternatives": [
+      "default",
+      {
+        "frame-title": "off"
+      }
     ]
   }
 }
