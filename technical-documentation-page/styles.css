@@ -1,7 +1,7 @@
 /* Elements */
 
 body {
-  color: indigo;
+  color: hsla(0, 0%, 12%, 1);
   background-color: #9a7c9e;
   font-family: 'Montserrat', sans-serif, monospace;
   line-height: normal;
@@ -15,7 +15,7 @@ body {
 }
 
 h1 {
-  color:aquamarine;
+  color: aquamarine;
   line-height: normal;
   font-family: 'Montserrat', sans-serif;
 }
@@ -23,6 +23,7 @@ h1 {
 main {
   max-width: 8;
 }
+
 code {
   display: block;
   text-align: left;
@@ -38,11 +39,18 @@ code {
   border-radius: 15px
 }
 
-a.nav-link.button-primary{
+a.nav-link.button-primary {
   color: whitesmoke;
   font-weight: 400;
   font-size: 1.2em;
-  text-decoration: none;
+  text-decoration: solid;
+}
+
+a.nav-link.button-primary:link,
+a.nav-link.button-primary:visited,
+a.nav-link.button-primary:hover,
+a.nav-link.button-primary:active {
+  transition: all;
 }
 
 /* Id's */
@@ -74,17 +82,19 @@ a.nav-link.button-primary{
 
 #navbar li {
   transition: opacity 0.5s ease;
-  background-color: unset;
   text-align: center;
   text-transform: capitalize;
-  margin: 10%;
   width: 100%;
   flex: auto;
   max-width: 100%;
   line-height: normal;
   flex: 1 0 10%;
   position: relative;
-  cursor: pointer
+  cursor: pointer;
+  background-color: hsla(229, 27%, 60%, 0.5);
+  border-radius: 30px;
+  padding: 0.2em;
+  margin: 30px auto;
 }
 
 /* Classes */
@@ -94,7 +104,7 @@ a.nav-link.button-primary{
   height: 100%;
   justify-items: center;
   align-content: center;
-  text-align:justify;
+  text-align: justify;
   width: auto;
   justify-content: space-between;
 }
