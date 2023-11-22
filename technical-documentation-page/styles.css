@@ -40,17 +40,18 @@ code {
 }
 
 a.nav-link.button-primary {
-  color: whitesmoke;
+  color: antiquewhite;
   font-weight: 400;
   font-size: 1.2em;
+  background-color:transparent;
   text-decoration: solid;
 }
 
-a.nav-link.button-primary:link,
-a.nav-link.button-primary:visited,
-a.nav-link.button-primary:hover,
-a.nav-link.button-primary:active {
-  transition: all;
+
+a.nav-link.button-primary:hover{
+  color:rgb(82, 11, 149);
+  font-weight: 700;
+  transition: all 1s ease-in-out 200ms;
 }
 
 /* Id's */
@@ -71,7 +72,6 @@ a.nav-link.button-primary:active {
 
 #navbar ul {
   list-style: none;
-  color: blue;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -81,7 +81,6 @@ a.nav-link.button-primary:active {
 }
 
 #navbar li {
-  transition: opacity 0.5s ease;
   text-align: center;
   text-transform: capitalize;
   width: 100%;
@@ -93,8 +92,13 @@ a.nav-link.button-primary:active {
   cursor: pointer;
   background-color: hsla(229, 27%, 60%, 0.5);
   border-radius: 30px;
-  padding: 0.2em;
+  padding: 0.3em;
   margin: 30px auto;
+}
+
+#navbar li:hover {
+  background-color: hsla(229, 27%, 60%, 0.9);
+  transition: background-color 1s ease-in-out 200ms;
 }
 
 /* Classes */
