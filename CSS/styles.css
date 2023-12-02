@@ -343,6 +343,8 @@ div.projects-grid {
   height: calc(100% - 6.8rem);
   width: 100%;
   object-fit: cover;
+  height: auto;
+  min-height: 100%;
   border-radius: 10px;
 }
 
