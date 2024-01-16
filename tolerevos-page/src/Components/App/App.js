@@ -1,10 +1,11 @@
-import './App.css';
+import "./App.css";
+import IndexPage from "../IndexPage/IndexPage";
 
 function App() {
   return (
-    <div className="App">
-      Hello World!
-    </div>
+    <>
+      <IndexPage />
+    </>
   );
 }
 
