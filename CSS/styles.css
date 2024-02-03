@@ -144,8 +144,7 @@ table {
   font-style: normal;
   font-weight: 400;
   src: local('Pacifico Regular'), local('Pacifico-Regular'),
-    url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2)
-      format('woff2');
+    url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format('woff2');
   font-display: swap;
 }
 
@@ -263,7 +262,7 @@ li a:active {
   margin: 0 auto;
   width: 100%;
   z-index: 0;
-  background-image: radial-gradient(at top left, #2029d7, #238853)
+  background-image: radial-gradient(at top left, #111774, #34cb7e)
 }
 
 #welcome-section h1 {
@@ -413,7 +412,7 @@ section#Contact.contact-section {
   margin: 0 auto;
   width: 100%;
   z-index: 0;
-  background-image: radial-gradient(at top left, #2029d7, #238853)
+  background-image: radial-gradient(at top left, #111774, #34cb7e)
 }
 
 .contact-subtitle {
