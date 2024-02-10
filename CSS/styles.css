@@ -133,9 +133,9 @@ table {
 
 :root {
   --background-welcome: gray;
-  --main-white: #f0f0f0;
-  --main-blue: #45567d;
-  --main-gray: #238853;
+  --main-white: #ffffff;
+  --main-blue: hsl(222, 29%, 38%);
+  --main-green: #1A6541;
   --main-red: #be3144;
 }
 
@@ -180,7 +180,7 @@ h1 {
   width: 100%;
   z-index: 1;
   min-height: 20px;
-  background: var(--main-gray);
+  background: var(--main-green, #1A6541);
   border:
     2px solid black;
 }
@@ -330,13 +330,13 @@ div.projects-grid {
 
 
 .project {
-  background: var(--main-gray);
+  background: var(--main-green, #1A6541);
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
 }
 
 .code {
-  color: var(--main-gray);
+  color: var(--main-green, #1A6541);
   transition: color 0.3s ease-out;
 }
 
@@ -373,7 +373,7 @@ div.projects-grid {
 .btn-show-all {
   font-size: 2rem;
   font-weight: bold;
-  background: var(--main-gray);
+  background: var(--main-green, #1A6541);
   color: var(--main-white);
   text-decoration: none;
   transition-property: color 5s ease-in 1s;
@@ -474,7 +474,7 @@ footer {
   display: flex;
   justify-content: space-evenly;
   padding: 2rem;
-  background: var(--main-gray);
+  background: var(--main-green, #1A6541);
   border-top: 4px solid var(--main-red);
 }
 
