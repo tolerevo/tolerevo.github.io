@@ -2,5 +2,8 @@
   "open-in-browser.default": "chrome",
   "cSpell.enableFiletypes": [
     "ignore"
+  ],
+  "cSpell.words": [
+    "dbxignore"
   ]
 }
