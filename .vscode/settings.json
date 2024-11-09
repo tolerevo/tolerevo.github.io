@@ -1,9 +1,17 @@
 {
   "open-in-browser.default": "chrome",
   "cSpell.enableFiletypes": [
-    "ignore"
+    "!cpp",
+    "!csharp",
+    "Log",
+    "coffeescript",
+    "gitignore",
+    "ignore",
+    "log",
+    "makefile"
   ],
   "cSpell.words": [
     "dbxignore"
-  ]
+  ],
+  "cSpell.language": "en,lorem"
 }
